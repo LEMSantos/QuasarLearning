@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="column justify-center items-center header-height-size full-width bg-primary relative-position shadow-4"
+		class="column justify-center items-center header-height-size full-width gradient-color relative-position shadow-4"
 	>
 		<q-btn
 			class="absolute-top-left q-ma-md"
@@ -13,7 +13,7 @@
 
 		<q-avatar
 			size="110px"
-			class="q-mb-sm"
+			class="q-mb-sm shadow-5"
 		>
 			<q-img
 				:src="avatar"
@@ -102,5 +102,9 @@ export default {
 
 .icon-size {
 	font-size: 24px;
+}
+
+.gradient-color {
+	background: linear-gradient(60deg, #00bef8, #027be3, #221b9c)
 }
 </style>
