@@ -102,6 +102,9 @@ export default {
 						}, 0);
 					});
 			})
+			.catch((error) => {
+				this.$router.push('/notfound');
+			})
 			.finally(() => {
 				this.loading = false;
 			});
